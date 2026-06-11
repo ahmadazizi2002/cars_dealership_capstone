@@ -1,0 +1,1 @@
+{"status": 200, "reviews": [{"id": 1, "dealer_id": 1, "name": "John Smith", "review": "Fantastic services", "purchase": true, "car_make": "Toyota", "car_model": "Camry", "car_year": 2023, "sentiment": "positive"}]}
