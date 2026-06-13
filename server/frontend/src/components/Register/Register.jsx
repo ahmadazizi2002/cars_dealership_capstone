@@ -26,11 +26,21 @@ const Register = () => {
     <div className="register-page">
       <h1>Sign-up</h1>
       <form onSubmit={handleSubmit}>
-        <input name="username" placeholder="Username" value={form.username} onChange={handleChange} />
-        <input name="firstName" placeholder="First Name" value={form.firstName} onChange={handleChange} />
-        <input name="lastName" placeholder="Last Name" value={form.lastName} onChange={handleChange} />
-        <input name="email" placeholder="Email" type="email" value={form.email} onChange={handleChange} />
-        <input name="password" placeholder="Password" type="password" value={form.password} onChange={handleChange} />
+        <label htmlFor="username">Username</label>
+        <input id="username" name="username" type="text" placeholder="Username" value={form.username} onChange={handleChange} />
+
+        <label htmlFor="firstName">First Name</label>
+        <input id="firstName" name="firstName" type="text" placeholder="First Name" value={form.firstName} onChange={handleChange} />
+
+        <label htmlFor="lastName">Last Name</label>
+        <input id="lastName" name="lastName" type="text" placeholder="Last Name" value={form.lastName} onChange={handleChange} />
+
+        <label htmlFor="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="Email" value={form.email} onChange={handleChange} />
+
+        <label htmlFor="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="Password" value={form.password} onChange={handleChange} />
+
         <button type="submit">Register</button>
       </form>
     </div>
