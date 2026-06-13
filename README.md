@@ -1,6 +1,23 @@
-# Cars Dealership
+# Cars Dealership Full-stack Capstone
+
+## Repository Name
+
+cars_dealership_capstone
 
 ## Project Name
+
 Cars Dealership Full-stack Capstone
 
-A full-stack dealership review application with Django backend, React frontend structure, static About/Contact pages, dealer APIs, review APIs, sentiment analysis service, Docker, and GitHub Actions CI.
+## Description
+
+This project is a full-stack car dealership application built with Django. It includes dealer APIs, review APIs, sentiment analysis services, Docker support, and GitHub Actions CI/CD integration.
+
+## Features
+
+* Dealer Management
+* Dealer Reviews
+* Sentiment Analysis
+* Django Backend
+* Docker Support
+* GitHub Actions CI/CD
+
